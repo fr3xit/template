@@ -1,0 +1,50 @@
+/* Base */
+/* @import url(./base/theme.css); */
+/* @import url(./base/var.css); */
+/* @import url(./base/layout.css); */
+/* @import url(./base/heading.css); */
+/* @import url(./base/paragraph.css); */
+/* @import url(./base/img.css); */
+/* @import url(./base/link.css); */
+/* @import url(./base/list.css); */
+/* @import url(./base/button.css); */
+/* @import url(./base/form.css); */
+/* @import url(./base/typography.css); */
+/* @import url(./base/scroll.css); */
+
+/* Layout */
+
+/* Modules */
+/* @import url(./modules/section.css); */
+/* @import url(./modules/slider.css); */
+/* @import url(./modules/nav-bar.css); */
+/* @import url(./modules/decor.css); */
+/* @import url(./modules/arrow.css); */
+/* @import url(./modules/icon.css); */
+/* @import url(./modules/card.css); */
+
+
+/* Section */
+@import url(./section/header.css);
+
+
+@import url(./section/footer.css);
+
+
+/* Tools */
+@import url(./tools/mixins.css);
+/* @import url(./tools/main.css); */
+/* @import url(./tools/reset.css); */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Media */
+	/* @import url("./media/1200.css") (max-width: 1200px); */
+	/* @import url("./media/1000.css") (max-width: 990px); */
+	/* @import url("./media/768.css") (max-width: 770px); */
+	/* @import url("./media/480.css") (max-width: 575px); */
+	/* @import url("./media/320.css") (max-width: 320px); */
+
+/* Work */
+/* @import url("../../workFolder/worker.css"); */

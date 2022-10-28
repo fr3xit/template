@@ -1,0 +1,35 @@
+:root {
+	/* Indents */
+	--i-indent-small: ;
+	--i-indent-middle: ;
+	--i-indent-big: ;
+
+	--i-section-offset: ;
+	--i-title-box-offset: ;
+
+	/* Card */
+	--s-card-gap: var(--i-indent-middle);
+	--s-card-w: ;
+	--s-card-h: ;
+	--s-card-img-w: ;
+	--s-card-img-h: ;
+	--s-card-offset: ;
+
+	/* Border */
+	--s-border-w: 3px;
+	--s-border-r: 3px;
+
+	/* Animation */
+	--t-animation: 0.3s;
+
+	/* Container*/
+	--s-container: 1200px;
+
+
+	/* Buttons */
+	--i-button-w__main: var(--i-button-w);
+	--i-button-h__main: var(--i-button-h);
+
+	--i-button-w: 150px;
+	--i-button-h: 40px;
+}

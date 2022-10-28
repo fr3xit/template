@@ -1,0 +1,89 @@
+/* Button */
+
+.btn {
+	min-width: var(--i-button-w__main);
+	min-height: var(--i-button-h__main);
+	padding: 10px;
+
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+.btn:hover {
+	transition: var(--t-animation) linear;
+}
+
+.btn:focus {
+	/* outline: 0; */
+}
+
+/* Modifiers */
+
+/* Center */
+.btn--center {
+	margin: 0 auto;
+	display: block;
+}
+/* Fill */
+
+/* White */
+.btn--fill_white {
+	color: var(--c-white);
+	border: var(--s-border-w) solid var(--c-white);
+}
+
+.btn--fill_white:hover {
+	color: var(--c-black);
+	background-color: var(--c-white);
+}
+
+/* Black */
+.btn--fill_black {
+	color: var(--c-black);
+	border: var(--s-border-w) solid var(--c-black);
+}
+
+.btn--fill_black:hover {
+	color: var(--c-white);
+	background-color: var(--c-black);
+}
+
+/* Primary */
+
+.btn--full_primary {
+	background-color: var(--c-primary);
+}
+
+.btn--full_primary:hover {
+	background-color: var(--c-primary__dark);
+}
+
+/* Secondary */
+
+.btn--full_secondary {
+	background-color: var(--c-secondary);
+}
+
+.btn--full_secondary:hover {
+	background-color: var(--c-secondary__dark);
+}
+
+/* White */
+.btn--white {
+	color: var(--c-black);
+	background-color: var(--c-white);
+}
+
+.btn--white:hover {
+	color: var(--c-black);
+	background-color: var(--c-color-14);
+	border-color: var(--c-black);
+}
+
+/* Black */
+.btn--black {
+	color: var(--c-white);
+	background-color: var(--c-black);
+}

@@ -1,0 +1,48 @@
+/* Images */
+
+.img {
+
+}
+
+/* Modifiers */
+
+/* Adaptive images*/
+.img--adaptive {
+	width: 100%;
+	/* height: auto; */
+}
+
+/* Image wrapper border */
+.img-wrapper--border {
+	border: var(--s-border-w) solid var(--c-secondary);
+}
+
+.img-wrapper--circle {
+	border-radius: 50%;
+}
+
+/* Effects */
+
+/* Backlight */
+.img-wrapper--backlight {
+	position: relative;
+}
+
+.img-wrapper--backlight:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	content: "";
+	opacity: 0;
+
+	background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
+}
+
+.img-wrapper--backlight:hover:after {
+	opacity: 1;
+
+	transition: var(--t-animation) linear;
+}

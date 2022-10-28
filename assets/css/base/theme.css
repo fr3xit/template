@@ -1,0 +1,70 @@
+/* Colors */
+.theme {
+	/* Primary colors */
+	--c-primary: var(--c-color-1);
+	--c-primary__light: var(--c-color-2);
+	--c-primary__dark: var(--c-color-3);
+
+	/* Secondary colors */
+	--c-secondary: var(--c-color-4);
+	--c-secondary__light: var(--c-color-5);
+	--c-secondary__dark: var(--c-color-6);
+
+/* Neutral */
+
+/* Other colors */
+	--c-bg: ;
+
+	--c-white: #fff;
+	--c-black: #000;
+
+	--c-light: ;
+	--c-dark: ;
+
+	--c-grey: var(--c-color-10);
+	--c-grey__light: var(--c-color-11);
+	--c-grey__dark: var(--c-color-12);
+
+	--c-yellow: var(--c-color-13);
+
+		/* Color 1 */
+	--c-color-1: ;
+	--c-color-2: ;
+	--c-color-3: ;
+
+	/* Color 2 */
+	--c-color-4: ;
+	--c-color-5: ;
+	--c-color-6: ;
+
+	/* Color 3 */
+	--c-color-7: ;
+	--c-color-8: ;
+	--c-color-9: ;
+
+	/* Color grey */
+	--c-color-10: ;
+	--c-color-11: ;
+	--c-color-12: ;
+
+}
+
+	/* Decor */
+.theme {
+
+}
+
+	/* Font */
+.theme {
+	--s-font__main: var(--s-font-3);
+
+	--s-font__small: var(--s-font-3);
+	--s-font__middle: var(--s-font-6);
+	--s-font__big: var(--s-font-7);
+
+	--s-font-1: ;
+	--s-font-2: ;
+	--s-font-3: ;
+	--s-font-4: ;
+	--s-font-5: ;
+}
