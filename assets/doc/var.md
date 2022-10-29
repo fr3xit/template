@@ -2,18 +2,27 @@
 
 **Abbreviations:**
 
-* -c => Color
-* -s => Size
-* -i => Indent
+* -p => Primary
+* -s => Secondary
+* -o => Optional
+
+* --c => Color
+* --s => Size
+* --i => Indent
 ---
-* w => width
-* h => height
-* p => padding
-* m => margin
+* -w => Width
+* -h => Height
+* -p => Padding
+* -m => Margin
 ---
-* t => top
-* r => right
-* b => bottom
-* l => left
+* t => Top
+* r => Right
+* b => Bottom
+* l => Left
 ---
-* r => radius
+* _d => Default
+* _s => Small
+* _m => Middle
+* _b => Big
+---
+* r => Radius

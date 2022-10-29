@@ -1,18 +1,16 @@
 /* Colors */
 .theme {
-	/* Primary colors */
-	--c-primary: var(--c-color-1);
-	--c-primary__light: var(--c-color-2);
-	--c-primary__dark: var(--c-color-3);
+	/* Primary */
+	--c-p: ;
+	--c-p__light: ;
+	--c-p__dark: ;
 
-	/* Secondary colors */
-	--c-secondary: var(--c-color-4);
-	--c-secondary__light: var(--c-color-5);
-	--c-secondary__dark: var(--c-color-6);
+	/* Secondary */
+	--c-s: ;
+	--c-s__light: ;
+	--c-s__dark: ;
 
-/* Neutral */
-
-/* Other colors */
+/* Other */
 	--c-bg: ;
 
 	--c-white: #fff;
@@ -21,32 +19,12 @@
 	--c-light: ;
 	--c-dark: ;
 
-	--c-grey: var(--c-color-10);
-	--c-grey__light: var(--c-color-11);
-	--c-grey__dark: var(--c-color-12);
+	--c-grey: ;
+	--c-grey__light: ;
+	--c-grey__dark: ;
 
-	--c-yellow: var(--c-color-13);
-
-		/* Color 1 */
-	--c-color-1: ;
-	--c-color-2: ;
-	--c-color-3: ;
-
-	/* Color 2 */
-	--c-color-4: ;
-	--c-color-5: ;
-	--c-color-6: ;
-
-	/* Color 3 */
-	--c-color-7: ;
-	--c-color-8: ;
-	--c-color-9: ;
-
-	/* Color grey */
-	--c-color-10: ;
-	--c-color-11: ;
-	--c-color-12: ;
-
+/* Optional */
+	--c-0-1: ;
 }
 
 	/* Decor */
@@ -56,15 +34,9 @@
 
 	/* Font */
 .theme {
-	--s-font__main: var(--s-font-3);
+	--s-font_d: 16px;
 
-	--s-font__small: var(--s-font-3);
-	--s-font__middle: var(--s-font-6);
-	--s-font__big: var(--s-font-7);
-
-	--s-font-1: ;
-	--s-font-2: ;
-	--s-font-3: ;
-	--s-font-4: ;
-	--s-font-5: ;
+	--s-font_s: 12px;
+	--s-font_m: 18px;
+	--s-font_b: 32px;
 }

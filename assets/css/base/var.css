@@ -1,14 +1,13 @@
 :root {
 	/* Indents */
-	--i-indent-small: ;
-	--i-indent-middle: ;
-	--i-indent-big: ;
+	--i_s: ;
+	--i_m: 30px;
+	--i_b: ;
 
-	--i-section-offset: ;
-	--i-title-box-offset: ;
+	/* Grid */
+	--s-grid-gap: var(--i_m);
 
 	/* Card */
-	--s-card-gap: var(--i-indent-middle);
 	--s-card-w: ;
 	--s-card-h: ;
 	--s-card-img-w: ;
@@ -16,7 +15,7 @@
 	--s-card-offset: ;
 
 	/* Border */
-	--s-border-w: 3px;
+	--s-border-h: 3px;
 	--s-border-r: 3px;
 
 	/* Animation */
@@ -27,9 +26,9 @@
 
 
 	/* Buttons */
-	--i-button-w__main: var(--i-button-w);
-	--i-button-h__main: var(--i-button-h);
+	--i-button_d-w: var(--i-button_m-w);
+	--i-button_d-h: var(--i-button_m-h);
 
-	--i-button-w: 150px;
-	--i-button-h: 40px;
+	--i-button_m-w: 150px;
+	--i-button_m-h: 40px;
 }

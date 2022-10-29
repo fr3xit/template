@@ -14,7 +14,7 @@
 
 /* Image wrapper border */
 .img-wrapper--border {
-	border: var(--s-border-w) solid var(--c-secondary);
+	border: var(--s-border-h) solid var(--c-s);
 }
 
 .img-wrapper--circle {
