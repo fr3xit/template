@@ -25,11 +25,11 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 30px;
+	gap: var(--s-grid-gap);
 }
 
 .col {
-	width: calc(33% - 30px);
+	width: calc(var(--s-col-w) - var(--s-grid-gap));
 	/* max-width: 400px; */
 	/* min-width: 300px; */
 }
