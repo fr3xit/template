@@ -1,4 +1,5 @@
 /* Base */
+/* @import url(./base/main.css); */
 /* @import url(./base/theme.css); */
 /* @import url(./base/var.css); */
 /* @import url(./base/layout.css); */
@@ -33,7 +34,6 @@
 
 /* Tools */
 @import url(./tools/mixins.css);
-/* @import url(./tools/main.css); */
 /* @import url(./tools/reset.css); */
 
 /* Fonts */

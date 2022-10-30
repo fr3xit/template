@@ -1,0 +1,8 @@
+:root {
+	font-style: 16px;
+}
+
+.page {
+	font-family: "Montserrat";
+	font-size: var(--s-font_d);
+}
