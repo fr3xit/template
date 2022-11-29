@@ -26,3 +26,5 @@
 * _b => Big
 ---
 * r => Radius
+
+-nameClass => Рабочий класс

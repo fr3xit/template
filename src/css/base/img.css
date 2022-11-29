@@ -4,6 +4,14 @@
 
 }
 
+.img-wrapper {
+
+}
+
+.img-inside {
+	color: var(--c-white);
+}
+
 /* Modifiers */
 
 /* Adaptive images*/
@@ -14,7 +22,7 @@
 
 /* Image wrapper border */
 .img-wrapper--border {
-	border: var(--s-border-h) solid var(--c-s);
+	border: var(--s-border) solid var(--c-s);
 }
 
 .img-wrapper--circle {

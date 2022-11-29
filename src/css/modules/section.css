@@ -1,0 +1,10 @@
+/* Indent */
+.section--indent {
+	margin-top: var(--i_b);
+}
+
+/* Grey */
+.section--gray {
+	background-color: var(--c-o-2);
+	padding: 70px 0;
+}
