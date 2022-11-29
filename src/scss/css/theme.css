@@ -1,0 +1,31 @@
+/* Colors */
+.theme {
+  /* Primary */
+  --c-p: ;
+  --c-p__light: ;
+  --c-p__dark: ;
+  /* Secondary */
+  --c-s: ;
+  --c-s__light: ;
+  --c-s__dark: ;
+  /* Other */
+  --c-bg: ;
+  --c-white: #fff;
+  --c-black: #000;
+  --c-light: ;
+  --c-dark: ;
+  --c-grey: ;
+  --c-grey__light: ;
+  --c-grey__dark: ;
+  /* Optional */
+  --c-0-1: ;
+}
+
+/* Decor */
+/* Font */
+.theme {
+  --s-font_d: 16px;
+  --s-font_s: 12px;
+  --s-font_m: 18px;
+  --s-font_b: 32px;
+}/*# sourceMappingURL=theme.css.map */

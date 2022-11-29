@@ -1,0 +1,31 @@
+/* Layout */
+/* Page */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: var(--s-font_d);
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  max-width: var(--s-container);
+  width: 90%;
+}
+
+/* Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--s-grid-gap);
+}
+
+.col {
+  width: calc(var(--s-col-w) - var(--s-grid-gap));
+  /* max-width: 400px; */
+  /* min-width: 300px; */
+}/*# sourceMappingURL=layout.css.map */
